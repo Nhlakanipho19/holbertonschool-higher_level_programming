@@ -1,15 +1,9 @@
 #!/usr/bin/python3
+""" Return true if the object is an instance of a class """
 
 
 def is_same_class(obj, a_class):
     """
-    is_some_class - checks if obj is exactly an instance of a_class
-
-    Args:
-    @obj: object to check
-    @a_class: class to check match with obj
+    Return true if the object is an instance of a class
     """
-    if (type(obj) is a_class):
-        return (True)
-
-    return (False)
+    return type(obj) == a_class
